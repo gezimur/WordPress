@@ -368,10 +368,10 @@ function require_wp_db() {
 	if ( isset( $wpdb ) )
 		return;
 
-	DB_USER = 'kpuwbpandzdhxt'; ///< @todo remove this shit !!!!!!!!!!!!
-	DB_PASSWORD = 'd5896673a524ce015dd3f91981c8332451b6bba64336d3cd7ea9efb66640bc23';
-	DB_NAME = 'dbbmq2vm8rrmv2';
-	DB_HOST = 'ec2-52-48-159-67.eu-west-1.compute.amazonaws.com';
+	$DB_USER = 'kpuwbpandzdhxt'; ///< @todo remove this shit !!!!!!!!!!!!
+	$DB_PASSWORD = 'd5896673a524ce015dd3f91981c8332451b6bba64336d3cd7ea9efb66640bc23';
+	$DB_NAME = 'dbbmq2vm8rrmv2';
+	$DB_HOST = 'ec2-52-48-159-67.eu-west-1.compute.amazonaws.com';
 
 	$wpdb = new wpdb( DB_USER, DB_PASSWORD, DB_NAME, DB_HOST );
 }
